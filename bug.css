@@ -1,0 +1,1 @@
+The following CSS code snippet demonstrates an uncommon error related to the specificity of CSS selectors and the cascading order.  The expected behavior is that the paragraph text should be blue; however, due to the specificity of the `p` selector being lower than that of `body p`, the text remains black. This is a subtle issue often overlooked by developers.
