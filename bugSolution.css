@@ -1,0 +1,14 @@
+/* bugSolution.css */
+body {
+  background-color: lightgray;
+}
+p {
+  color: blue; /*This style is applied because of the higher specificity */
+}
+body p {
+  color: black; /* This style is now overridden*/
+}
+/* Alternatively, to maintain the body p style, you could use !important, although this is generally discouraged.*/
+/* body p {
+  color: green !important; 
+} */
